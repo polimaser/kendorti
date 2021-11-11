@@ -20,10 +20,10 @@ jobs:
   build1: 
     <<: *script 
     docker: 
-      - image: ruby
+      - image: ruby 
  
 workflows: 
   version: 2 
-  commit:
+  commit: 
     jobs: 
       - build1 
